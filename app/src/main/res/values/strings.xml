@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wallpaper_App</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_view_page">ViewPage</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_show_page">ShowPage</string>
+    <string name="title_activity_fevorite">Fevorite</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_add_wallpaper">Add_Wallpaper</string>
+</resources>
