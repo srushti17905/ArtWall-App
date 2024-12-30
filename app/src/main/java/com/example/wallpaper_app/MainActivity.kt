@@ -21,6 +21,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.staggeredgrid.LazyVerticalStaggeredGrid
+import androidx.compose.foundation.lazy.staggeredgrid.StaggeredGridCells
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -66,7 +68,7 @@ class MainActivity : ComponentActivity() {
                             Text(
                                 text = Wallpaper_Name,
                                 fontSize = 25.sp,
-                                color = Color.White, fontFamily = FontFamily(Font(R.font.moon))
+                                color = Color.White, fontFamily = FontFamily(Font(R.font.sun))
                             )
                         }),
                         actions = {
@@ -114,22 +116,20 @@ class MainActivity : ComponentActivity() {
 
                         }
 
-                        LazyVerticalGrid(columns = GridCells.Fixed(3)) {
+                        LazyVerticalStaggeredGrid(columns = StaggeredGridCells.Fixed(2)) {
 
                             items(Wallpaper.allImage.size) { index ->
 
-
                                 Surface(
                                     modifier = Modifier
-                                        .height(200.dp)
+                                        .height(250.dp)
                                         .width(40.dp)
-                                        .padding(3.dp),
+                                        .padding(4.dp),
                                     color = Color.Black
                                 ) {
-
                                     Surface(
                                         modifier = Modifier
-                                            .height(180.dp)
+                                            .height(250.dp)
                                             .width(40.dp)
                                             .fillMaxSize()
                                             .padding(1.dp),

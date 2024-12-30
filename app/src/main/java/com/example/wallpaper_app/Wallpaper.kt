@@ -608,16 +608,16 @@ object Wallpaper {
     var allImage = arrayOf(
 
         R.drawable.spring2,
-        R.drawable.food8,
+        R.drawable.food9,
         R.drawable.mountain5,
         R.drawable.astronaut20,
         R.drawable.art10,
         R.drawable.nature6,
-        R.drawable.food9,
         R.drawable.nature7,
         R.drawable.art7,
         R.drawable.art8,
         R.drawable.food10,
+        R.drawable.food8,
         R.drawable.art9,
         R.drawable.art3,
         R.drawable.art4,
@@ -630,7 +630,6 @@ object Wallpaper {
         R.drawable.art12,
         R.drawable.nature11,
         R.drawable.food11,
-
         R.drawable.nature12,
         R.drawable.nature13,
         R.drawable.nature14,

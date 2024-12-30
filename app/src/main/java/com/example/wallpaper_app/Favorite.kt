@@ -99,8 +99,6 @@ class Favorite : ComponentActivity() {
                                 .height(10.dp)
                                 .fillMaxWidth()
                         ) {
-
-
                         }
 
                         LazyVerticalGrid(GridCells.Fixed(3)) {
